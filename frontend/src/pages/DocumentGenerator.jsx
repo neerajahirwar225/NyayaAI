@@ -94,7 +94,7 @@ const DocumentGenerator = () => {
                     </div>
                   </div>
                   <a
-                    href={`http://localhost:5000${doc.pdfUrl}`}
+                    href={`https://nyayaai-backend-qejx.onrender.com${doc.pdfUrl}`}
                     target="_blank"
                     rel="noreferrer"
                     className="p-1.5 rounded-lg bg-brand-accent/20 border border-brand-accent/35 text-brand-accentLight hover:bg-brand-accent hover:text-white transition-colors"
@@ -129,7 +129,7 @@ const DocumentGenerator = () => {
                 </div>
               </div>
               <a
-                href={`http://localhost:5000${generatedDoc.pdfUrl}`}
+                href={`https://nyayaai-backend-qejx.onrender.com${generatedDoc.pdfUrl}`}
                 target="_blank"
                 rel="noreferrer"
                 className="px-4 py-2 bg-brand-success hover:bg-emerald-600 text-white text-xs font-semibold rounded-xl flex items-center gap-1.5 shadow-md shadow-emerald-500/10 transition-colors"

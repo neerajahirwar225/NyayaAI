@@ -166,7 +166,7 @@ const Dashboard = () => {
                     </span>
                     {act.type === 'document' && act.pdfUrl && (
                       <a 
-                        href={`http://localhost:5000${act.pdfUrl}`} 
+                        href={`https://nyayaai-backend-qejx.onrender.com${act.pdfUrl}`} 
                         target="_blank" 
                         rel="noreferrer"
                         className="p-1.5 rounded-lg bg-brand-accent/20 border border-brand-accent/35 text-brand-accentLight hover:bg-brand-accent hover:text-white transition-colors"

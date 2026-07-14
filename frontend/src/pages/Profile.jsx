@@ -73,7 +73,7 @@ const Profile = () => {
                     </p>
                   </div>
                   <a
-                    href={`http://localhost:5000${doc.pdfUrl}`}
+                    href={`https://nyayaai-backend-qejx.onrender.com${doc.pdfUrl}`}
                     target="_blank"
                     rel="noreferrer"
                     className="p-1.5 rounded-lg bg-brand-accent/20 border border-brand-accent/35 text-brand-accentLight hover:bg-brand-accent hover:text-white transition-colors"
